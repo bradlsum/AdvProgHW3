@@ -1,10 +1,6 @@
 public class LinkList {
     Node head;
 
-    LinkList(){
-        this.head = new Node();
-    }
-
     LinkList(Node n){
         this.head = n;
     }
